@@ -1,4 +1,8 @@
 // index.js
+console.log("==================================")
+console.log("DOTENV_KEY", process.env.DOTENV_KEY)
+console.log("==================================")
+
 require('dotenv-vault-core').config()
 console.log(process.env) // for debugging purposes. remove when ready.
 
