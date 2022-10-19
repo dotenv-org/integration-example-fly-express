@@ -1,4 +1,5 @@
 {
+  "name": "integration-example-fly-express",
   "dependencies": {
     "express": "^4.18.2"
   }
